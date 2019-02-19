@@ -45,7 +45,7 @@
     "run-parallel-limit": "^1.0.3",
     "standard": "*",
     "stylus": "^0.54.0",
-    "watchify": "^3.1.2"
+    "watchify": "^3.11.1"
   },
   "homepage": "https://webtorrent.io",
   "keywords": [
