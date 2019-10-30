@@ -13,7 +13,7 @@ const { Remarkable } = require('remarkable')
 const config = require('../config')
 const desktopApi = require('./desktop-api')
 
-const PORT = Number(process.argv[2]) || 4000
+const PORT = Number(process.argv[2]) || 8600
 
 const app = express()
 const server = http.createServer(app)
