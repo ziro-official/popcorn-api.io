@@ -3,7 +3,7 @@ extends layout
 block body
   #hero
     #progressBar
-    h1 Torrents on the <em>web</em>
+    h1 Torrents on the <em>Desktop</em>
     #status.clearfix
       #statusLeft
         span.show-leech #{ 'Downloading ' }
@@ -25,24 +25,16 @@ block body
       .video
         .videoOverlay
 
-  .feature-block.sponsors
-    article
-      h3 Open Source Supporters
-      .flex-center
-        a(href='https://brave.com', rel='nofollow', target='_blank', class='sponsor')
-          img(src='/img/supporters/brave.png', alt='Brave Software')
-        <script async type="text/javascript" src="//cdn.carbonads.com/carbon.js?serve=CE7DT2QY&placement=webtorrentio" id="_carbonads_js"></script>
-
   .feature-block
     article
       h1.minimal Torrents on the <em>desktop</em>
-      a(href='/desktop', title='WebTorrent Desktop')
+      a(href='/desktop', title='Popcorn Desktop')
         img(src='/img/screenshot-player.png')
       h2 The streaming torrent client for Mac, Windows, &amp; Linux
       div.featuredCenter
-        a.btn.large(href='/desktop') Get WebTorrent Desktop
+        a.btn.large(href='/desktop') Get Popcorn Desktop
       p
-        | WebTorrent Desktop is for streaming torrents. Whether it's
+        | Popcorn Desktop is for streaming torrents. Whether it's
         | video from the
         = ' '
         a(href='https://archive.org') Internet Archive
@@ -54,11 +46,13 @@ block body
         a(href='https://librivox.org/') Librivox
         | , you can play it right away. You don't have to wait for it to finish downloading.
 
-      p WebTorrent Desktop is fast, free, non-commercial &amp; open source.
+      p Popcorn Desktop is fast, free, non-commercial &amp; open source.
 
   .feature-block
     article
       :markdown
+        # Popcorn Is Using WebTorrent!
+
         # What is WebTorrent?
 
         **WebTorrent** is a streaming torrent client for the **web browser** and the **desktop**.
@@ -79,13 +73,5 @@ block body
         See WebTorrent in action on the Web at [Instant.io](https://instant.io).
         Send a file to a friend using BitTorrent!
 
-        Or, install [WebTorrent Desktop](/desktop) for Mac, Windows, and Linux.
+        Or, install [Popcorn Desktop](/desktop) for Mac, Windows, and Linux.
         Try out a fast, lightweight, new torrent client today!
-
-  .feature-block
-    article
-      h1.minimal Learn more about WebTorrent
-      div.featuredCenter
-        a.btn.large(href='/intro') Get Started
-        a.btn.large(href='/docs') Docs
-        a.btn.large(href='/faq') FAQ

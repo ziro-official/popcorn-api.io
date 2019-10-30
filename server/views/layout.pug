@@ -3,11 +3,11 @@ html(lang='en')
   head
     meta(charset='utf-8')
 
-    title= rawTitle || (title && (title + ' - WebTorrent')) || 'WebTorrent'
-    meta(property='og:title', content=`${ rawTitle || (title && (title + " - WebTorrent")) || "WebTorrent" }`)
+    title= rawTitle || (title && (title + ' - Popcorn Viet Nam')) || 'Popcorn Viet Nam'
+    meta(property='og:title', content=`${ rawTitle || (title && (title + " - Popcorn Viet Nam")) || "Popcorn Viet Nam" }`)
 
-    meta(name='description', content=`${ desc || "WebTorrent, the streaming torrent client for the browser, Mac, Windows, and Linux" }`)
-    meta(property='og:description', content=`${ desc || "WebTorrent, the streaming torrent client for the browser, Mac, Windows, and Linux" }`)
+    meta(name='description', content=`${ desc || "Popcorn Viet Nam, the streaming torrent client for the browser, Mac, Windows, and Linux" }`)
+    meta(property='og:description', content=`${ desc || "Popcorn Viet Nam, the streaming torrent client for the browser, Mac, Windows, and Linux" }`)
 
     meta(property='og:type', content='website')
     meta(property='og:image', content='/img/WebTorrent.png')
@@ -40,46 +40,27 @@ html(lang='en')
   body(class=cls || '')
     .headerWrap
       header.header
-        h1: a(href='/') WebTorrent
+        h1: a(href='/') Popcorn Viet Nam
         nav
-          a(href='/intro') Get Started
-          a(href='/docs') Docs
-          a(href='/faq') FAQ
-          a(href='/desktop', class='new-release') WebTorrent Desktop
-          a(href='https://instant.io', target='_blank') Instant.io
+          a(href='/desktop', class='new-release') Popcorn Desktop
           if (cls === 'desktop')
-            a.btn(href='https://github.com/webtorrent/webtorrent-desktop', target='_blank') GitHub
+            a.btn(href='https://github.com/datnguyencse/popcorn-desktop-vn', target='_blank') GitHub
           else
-            a.btn(href='https://github.com/webtorrent/webtorrent', target='_blank') GitHub
+            a.btn(href='https://github.com/datnguyencse/popcorn-desktop-vn', target='_blank') GitHub
 
     main
       block body
     .footerWrap
       footer.clearfix
         section
-          h3 Learn
-          a(href='/intro') Get Started
-          a(href='/docs') Docs
-          a(href='/faq') FAQ
-
-        section
           h3 Connect
-          a(href='https://twitter.com/WebTorrentApp') Twitter
-          a(href='https://github.com/webtorrent/webtorrent') GitHub
-          iframe.gh-button(src='https://ghbtns.com/github-btn.html?user=webtorrent&repo=webtorrent&type=star&count=true&size=large', frameborder='0', scrolling='0', width='160px', height='30px')
+          a(href='https://discord.gg/kYWGjPh') Chat
+          a(href='https://github.com/datnguyencse/popcorn-desktop-vn') GitHub
 
         section
           h3 Support
-          if (cls === 'desktop')
-            a(href='https://github.com/webtorrent/webtorrent-desktop/issues') Open an issue
-          else
-            a(href='https://github.com/webtorrent/webtorrent/issues') Open an issue
-          a(href='https://gitter.im/webtorrent/webtorrent') Chat in Gitter
-          div #webtorrent on IRC (freenode)
-
-        section.sponsors
-          h3 Open Source Sponsors
-          a(href='https://brave.com', rel='nofollow', target='_blank') Brave
+          a(href='https://github.com/datnguyencse/popcorn-desktop-vn/issues') Open an issue
+          a(href='https://discord.gg/kYWGjPh') Discord
 
     script(src='/bundle.js')
 
