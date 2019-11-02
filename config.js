@@ -8,7 +8,7 @@ exports.isProd = process.env.NODE_ENV === 'production'
 /**
  * WebTorrent Desktop version (used by auto-updater, landing page, etc.)
  */
-exports.desktopVersion = '0.2.3'
+exports.desktopVersion = '0.2.4'
 
 /**
  * Path to store log files
