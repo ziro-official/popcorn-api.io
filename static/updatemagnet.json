@@ -1,0 +1,66 @@
+{
+  "windows": {
+    "x86": {
+      "version": "0.2.4",
+      "updateUrl": "https://vn.popcorn-api.io/Popcorn-Time-0.2.4_win32.zip.torrent",
+      "sourceUrl": "https://github.com/datnguyencse/popcorn-desktop-vn/releases/download/v0.2.4/Popcorn-Time-0.2.4_win32.zip",
+      "checksum": "ab618942b0d739d2e9262b415031290ecb30b8b5",
+      "signature": "Tj5dTFIjgfEq/pYUtYQ6C5dJGU8mBXnpFhig48TQwCDa6Ig4yHVxJiXVM+jJWECV6AxW8wsZCSOnu/NWquNaqoxQQUaP6IhY0H+wAsOQR2KCo52UwZwX6TDL6s5yx38Sj0PqpLZQ8BASuyKSxnX8+xAbw8jD8CV0QQ57MLxIB9QeNojjvKlFk7zT+P5uh1XP9lw5tWkFKwOyZo32ES1tXSyPEyg7bkByb9cPdtQUy6NR6V6l5LpKVDq0O6ah57jt2qQCvvjaImKfH4DJtvJn6zsq7kFYp4i7BgngCZeJC9qtodvOni2JHDMdhBz9uSV3QjqF1X0LY7HfyYPB2JeDVQ==",
+      "title": "Popcorn-Time v0.2.4",
+      "description": "Please Download the last version from https://vn.popcorn-api.io",
+      "changeLog": [],
+      "gitTag": "0.2.4",
+      "gitCommit": ""
+    },
+    "x64": {
+      "version": "0.2.4",
+      "updateUrl": "https://vn.popcorn-api.io/Popcorn-Time-0.2.4_win64.zip.torrent",
+      "sourceUrl": "https://github.com/datnguyencse/popcorn-desktop-vn/releases/download/v0.2.4/Popcorn-Time-0.2.4_win64.zip",
+      "checksum": "f8690c6172c07b714992a60a34879a7770d4eedb",
+      "signature": "oZNCePJJTtQW0ICIBavdiepYl87cMTocdLTDg0i7TJ4LtEbcLgmD9DmBXY9wlikHS+cdoGKlOQvw4vKIr+LXSLFnTAvQo7+rqFWxNQ4Voy9pghAcQ09iFQPMhKg36L7d+qTi35wSXWMAdMjb3kb6yYqrNJV22PVHMGYJxkfze1/cHBIQYkjzZTwPU9o6cqjKHHg3E4tWaTFw35K5xatETzZbPvwKpcvLqI1t16bSq8IVh2iP7kelYkyTxwwLlBWNij6exgia4XXCr/CHpARvcMR2q6jUh6JobTwKzf6+Xh3HbQ7YGpKdGVuz8fSgENf7ohgSc/oPB2TqcAgr4hygyQ==",
+      "title": "Popcorn-Time v0.2.4",
+      "description": "Please Download the last version from https://vn.popcorn-api.io",
+      "changeLog": [],
+      "gitTag": "0.2.4",
+      "gitCommit": ""
+    }
+  },
+  "linux": {
+    "x64": {
+      "version": "0.2.4",
+      "updateUrl": "https://vn.popcorn-api.io/Popcorn-Time-0.2.4_linux64.zip.torrent",
+      "sourceUrl": "https://github.com/datnguyencse/popcorn-desktop-vn/releases/download/v0.2.4/Popcorn-Time-0.2.4_linux64.zip",
+      "checksum": "8a14f6517c8879ac900f649d56b8c72069d5d7ed",
+      "signature": "h699964i7cWh+G4LsrVb0UyFHwy4DtDPP0Br2VuQGYshdW1lBDLkQzw0AO3TUN5kMidImd9SpRiOPESAfUXgBJW7pb7ld3CE84wTIQexNKhjdIU0rLQ2RMS2ezfPdKV0k9yeoVPA7IFwnMQgOyQ2ZaHO0n2H7+FsZGbU2uxDbNBAFqZvnh0AXN+VskEiGDCAmGJqRFz+MfL+I8Thax4DxnK04Z+rQ3pbXuJusTLOzhrVwOTyKErS8EQZqB1bKiTIZqbFFjfHEBljkSJOZKf6eGXEKFn7NlPRaj61CxxHHpzUYt143MZW4Wlr+86Hl4mocqp4PSHrOvdVgYfTQqIF7Q==",
+      "title": "Popcorn-Time v0.2.4",
+      "description": "Please Download the last version from https://vn.popcorn-api.io",
+      "changeLog": [],
+      "gitTag": "0.2.4",
+      "gitCommit": ""
+    },
+    "x86": {
+      "version": "0.2.4",
+      "updateUrl": "https://vn.popcorn-api.io/Popcorn-Time-0.2.4_linux32.zip.torrent",
+      "sourceUrl": "https://github.com/datnguyencse/popcorn-desktop-vn/releases/download/v0.2.4/Popcorn-Time-0.2.4_linux32.zip",
+      "checksum": "f9df5706aa2620a53941fdbb07c8fceed5a25d4a",
+      "signature": "O8EBsDdHzUggOMmjoZX42O66AkusPdg/ljItRYLsC+RXPWqCUXFnWP/MfpMKR1FjdeznM4MLmsBjKjbUOHgfXhrPF3GCci3tQASIcEvuHiEx8awqiwHbS6MmRj+oxZe4JdC8iWhqSIMXanwJKjoxmdwv4sMzLap1IMtTUnMjY9zkD8rWOX1ijJrQLCqoXwqzRVAyl2dMxqOHIhdmuFIaFzobO6l9K+L5LkFuWMOPm+AwSVdsZyaTB8nKPT5QZ1Cn+fXT54WZb5EP48vetH96EbekKaO1Zdic7HEa8SPj4KpJGoJLzWDhj9gpzrwlAZU5VEjQEx/yRXPd5vXATlO4Ow==",
+      "title": "Popcorn-Time v0.2.4",
+      "description": "Please Download the last version from https://vn.popcorn-api.io",
+      "changeLog": [],
+      "gitTag": "0.2.4",
+      "gitCommit": ""
+    }
+  },
+  "mac": {
+    "version": "0.2.4",
+    "updateUrl": "https://vn.popcorn-api.io/Popcorn-Time-0.2.4_osx64.zip.torrent",
+    "sourceUrl": "https://github.com/datnguyencse/popcorn-desktop-vn/releases/download/v0.2.4/Popcorn-Time-0.2.4_osx64.zip",
+    "checksum": "2f347a7805d36ea828196f7bdd5e9b83e883a1af",
+    "signature": "Vf/8LQnAhFJsNUyU0Xn7bos5Sj2S7y4374fscBAeHw48e1b4RiOyQ5F80wgol/dC1j8st7n/eLtav6HFFhFx9M8RVf7nRUZBDuhfwv+XtO4UtYiqyRzrFEVWAhVlBQPoKB+0Zk4Uw4Awcerp9sL3Pj9GoqSGd4SCBVgHcpQd5fHclFoJxCGk1rLuJ8pwamANGix6hZ7TweCYuaieu3v97ZIReNmoAoxMc519/c7x2Q5WhLkGl6Vah39aXB5vQFBZKrXl7xXAz16ULYwC9SVBpLHgNv6dAgldwlSl1+guW6bwdAvttcvLw0EWZHZLMlfyGkMjJJyvdbConO5HdPAGjg==",
+    "title": "Popcorn-Time v0.2.4",
+    "description": "Please Download the last version from https://vn.popcorn-api.io",
+    "changeLog": [],
+    "gitTag": "0.2.4",
+    "gitCommit": ""
+  }
+}
